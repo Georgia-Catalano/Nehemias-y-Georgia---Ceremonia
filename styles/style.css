@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+.body.vegas-container > .vegas-overlay, body.vegas-container > .vegas-slide, body.vegas-container > .vegas-timer {
+
+}
+.birthstone-bounce-regular {
+  font-family: "Birthstone Bounce", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.birthstone-bounce-medium {
+  font-family: "Birthstone Bounce", cursive;
+  font-weight: 500;
+  font-style: normal;
+}
+.windsong-regular {
+  font-family: "WindSong", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.windsong-medium {
+  font-family: "WindSong", cursive;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+.caveat-uniquifier {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.shadows-into-light-regular {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.goudy-bookletter-1911-regular {
+  font-family: "Goudy Bookletter 1911", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+main {
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 2px #5d5d5d;
+  background-color: #000000;
+  opacity: 0.7;
+  box-shadow: 0 0 3px 3px #101010;
+  overflow-wrap: anywhere;
+}
+
+main h1 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "WindSong", cursive;
+  font-size: 140px;
+  color: white;
+  box-shadow: 0 0 3px 3px white;
+  opacity: 0.9;
+  overflow-wrap: anywhere;
+}
+
+
+h2 {
+  /*width: 100%;*/
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 20px;
+  color:#333;
+  font-family: "WindSong", cursive;
+  text-align: center;
+  font-size: 100px;
+  text-shadow: 1px 1px 1px black;
+  background-color: white;
+  box-shadow: 0 0 3px 3px white;
+  opacity: 0.7;
+  overflow-wrap: anywhere;
+}
+
+h3 {
+  /*width: 100%;*/
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 20px;
+  color:#333;
+  font-family: "WindSong", cursive;
+  text-align: center;
+  font-size: 80px;
+  text-shadow: 1px 1px 1px black;
+  background-color: white;
+  box-shadow: 0 0 3px 3px white;
+  opacity: 0.7;
+  overflow-wrap: anywhere;
+}
+
+
+section {
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-color: #101010;
+      opacity: 0.7;
+      box-shadow: 0 0 3px 3px #101010;
+      overflow-wrap: anywhere;
+  }
+
+div {
+  margin: 20px;
+  padding: 30px;
+  font-size: 40px;
+  font-family: "Goudy Bookletter 1911", serif;
+  text-shadow: 2px 2px 2px #5d5d5d;
+  box-shadow: 0 0 3px 3px white;
+  overflow-wrap: anywhere;
+}
+
+div h1 {
+  padding: 20px;
+  text-align: center;
+  font-family: "WindSong", cursive;
+  font-size: 80px;
+  text-shadow: 2px 2px 2px #5d5d5d;
+  opacity: 0.9;
+  background-color: white;
+  box-shadow: 0 0 4px 4px white;
+  overflow-wrap: anywhere;
+}
+
+div p {
+  padding: 30px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  box-shadow: 0 0 4px 4px #101010;
+  overflow-wrap: anywhere;
+}
+
+ul li{
+  margin: 10px;
+  font-family: "WindSong", cursive;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  list-style: none;
+  background-color: #333;
+  overflow-wrap: anywhere;
+}
+
+.ulDos li{
+  font-family: "Goudy Bookletter 1911", serif;
+  overflow-wrap: anywhere;
+}
+a{
+  margin: 25px;
+  padding: 5px;
+  color: white;
+  font-family: "Goudy Bookletter 1911", serif;
+  overflow-wrap: anywhere;
+  background-color: #000000;
+  border: 3px solid white;
+}
+a:hover{
+  border: 3px solid black;
+  padding: 7px;
+  color: #101010;
+  background-color:white;
+}
+iframe{
+  width: 400px;
+  height:300px;
+  padding: 15px;
+  margin: 10px;
+  background-color: white;
+  box-shadow: 0 0 3px 3px white;
+  overflow-wrap: anywhere;
+}
+
+iframe:hover {
+  box-shadow: 0 0 3px 3px #5d5d5d;
+}
+
+/*contador */
+
+footer{
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  background-color: #101010;
+  overflow-wrap: anywhere;
+}
+
+.countdown {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-items: center;
+    color: white;
+    box-shadow: 0 0 4px 4px transparent;
+    overflow-wrap: anywhere;
+}
+
+.countdown div{
+  width: 100%;
+  height: 150px;
+  display: grid;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  font-size: 50px;
+  color: black;   
+  box-shadow: 0 0 4px 4px transparent;
+  overflow-wrap: anywhere;
+
+}
+
+
+span{
+  justify-items: center;
+  color:white;
+  font-family: "WindSong", cursive;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px #333;
+}
+
+.final-sms{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(-100%);
+    transition: ease-in-out 0.5s;
+}
+.final-sms h2{
+    text-align: center;
+    font-size: 100px;
+    color: #fff;
+}
+
+#sectionDos{
+  display: flex;
+  flex-direction:inherit;
+  overflow-wrap: anywhere;
+}
+
+#sectionDos h2{
+  font-family: "Shadows Into Light", cursive;
+  overflow-wrap: anywhere;
+}
+
